@@ -1,0 +1,42 @@
+@import url("theme-a.css");
+
+/*
+@import url("theme-b.css");
+*/
+.contenedor-flex {
+  padding-left: 30px;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.elemento-flex-1 {
+  font-size: small;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border: 2px solid gray;
+}
+
+.elemento-flex-2 {
+  font-size: small;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border: 2px solid gray;
+}
+
+.elemento-flex-3 {
+  font-size: small;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border: 2px solid gray;
+}
+
+.elemento-flex-4 {
+  font-size: small;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border: 2px solid gray;
+}

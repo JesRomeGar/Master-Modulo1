@@ -1,0 +1,111 @@
+@import "colors.scss";
+
+
+.container {
+  margin: auto;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+div {
+    width: 190vh;
+    height: 18vh;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+  }
+  
+.container {
+  .base_color {
+    background-color: $color_base1;
+  }
+  .darken4 {
+    background-color: darken($color_base1, 45%);
+  }
+  .darken3 {
+    background-color: darken($color_base1, 20%);
+  }
+  .darken2 {
+    background-color: darken($color_base1, 15%);
+  }
+  .darken1 {
+    background-color: darken($color_base1, 10%);
+  }
+  .lighten1 {
+    background-color: lighten($color_base1, 10%);
+  }
+  .lighten2 {
+    background-color: lighten($color_base1, 25%);
+  }
+  .lighten3 {
+    background-color: lighten($color_base1, 35%);
+  }
+  .lighten4 {
+    background-color: lighten($color_base1, 45%);
+  }
+}
+
+.container:nth-child(2) {
+    .base_color {
+  background-color: $color_base2;
+}
+.darken4 {
+  background-color: darken($color_base2, 45%);
+}
+.darken3 {
+  background-color: darken($color_base2, 30%);
+}
+.darken2 {
+  background-color: darken($color_base2, 25%);
+}
+.darken1 {
+  background-color: darken($color_base2, 10%);
+}
+.lighten1 {
+  background-color: lighten($color_base2, 15%);
+}
+.lighten2 {
+  background-color: lighten($color_base2, 25%);
+}
+.lighten3 {
+  background-color: lighten($color_base2, 35%);
+}
+.lighten4 {
+  background-color: lighten($color_base2, 40%);
+}
+}
+
+.container:nth-child(3) {
+    .base_color {
+  background-color: $color_base3;
+}
+.darken4 {
+  background-color: darken($color_base3, 45%);
+}
+.darken3 {
+  background-color: darken($color_base3, 30%);
+}
+.darken2 {
+  background-color: darken($color_base3, 25%);
+}
+.darken1 {
+  background-color: darken($color_base3, 10%);
+}
+.lighten1 {
+  background-color: lighten($color_base3, 15%);
+}
+.lighten2 {
+  background-color: lighten($color_base3, 25%);
+}
+.lighten3 {
+  background-color: lighten($color_base3, 35%);
+}
+.lighten4 {
+  background-color: lighten($color_base3, 40%);
+}
+}
